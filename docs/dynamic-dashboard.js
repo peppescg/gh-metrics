@@ -24,15 +24,10 @@ class DynamicGitHubDashboard {
             <div class="flex items-center justify-between">
               <div>
                 <h1 class="text-3xl font-bold">📊 GitHub Metrics Dashboard</h1>
-                <p class="text-blue-100 mt-1">Real-time GitHub Release Analytics</p>
+                <p class="text-blue-100 mt-1">GitHub Release Analytics</p>
               </div>
               <div class="text-right">
-                <div class="flex items-center justify-end mb-1">
-                  <span class="inline-block w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
-                  <p class="text-sm text-blue-100">Live Data - Always Fresh</p>
-                </div>
                 <p class="text-lg font-semibold" id="lastUpdate">Loading...</p>
-                <p class="text-xs text-blue-200" id="nextUpdate">Next update: calculating...</p>
                 <div class="mt-2 space-x-2">
                   <button id="hardRefreshBtn" class="px-4 py-2 bg-white bg-opacity-20 rounded hover:bg-opacity-30 transition-all">
                     🔄 Refresh
@@ -300,7 +295,6 @@ class DynamicGitHubDashboard {
     
     // Show timezone for timestamps in header for clarity
     document.getElementById('lastUpdate').textContent = this.formatDateTime(lastUpdate, true, true);
-    document.getElementById('nextUpdate').textContent = 'Next update: On page refresh';
   }
 
   hardRefresh() {
