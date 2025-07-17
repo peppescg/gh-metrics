@@ -1,0 +1,29 @@
+{
+    "name": "github-metrics-action",
+    "version": "1.0.0",
+    "description": "GitHub Action to collect and display repository metrics with GitHub Pages",
+    "main": "src/metrics-collector.js",
+    "scripts": {
+        "collect": "node src/metrics-collector.js",
+        "build-dashboard": "node src/build-dashboard.js",
+        "dev": "nodemon src/metrics-collector.js",
+        "test": "node src/test-local.js"
+    },
+    "keywords": [
+        "github",
+        "actions",
+        "metrics",
+        "releases",
+        "github-pages",
+        "dashboard"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "fs-extra": "^11.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
