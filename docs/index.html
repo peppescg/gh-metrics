@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Metrics Dashboard - stacklok/toolhive-studio</title>
+    <meta http-equiv="refresh" content="1800">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'><path d='M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z'/></svg>">
+    <style>
+        .metric-card {
+            transition: transform 0.2s ease-in-out;
+        }
+        .metric-card:hover {
+            transform: translateY(-2px);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .status-success { color: #059669; }
+        .status-error { color: #dc2626; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Header -->
+    <header class="gradient-bg text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold">📊 GitHub Metrics Dashboard</h1>
+                    <p class="text-blue-100 mt-1">Repository: <span class="font-semibold">stacklok/toolhive-studio</span></p>
+                </div>
+                <div class="text-right">
+                    <p class="text-sm text-blue-100">Last Updated</p>
+                    <p class="text-lg font-semibold">7/17/2025, 8:24:53 AM</p>
+                    <p class="text-xs text-blue-200">Next update: 7/17/2025, 8:54:54 AM</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        <!-- Repository Info -->
+        
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">📁 Repository Information</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-yellow-600">17</div>
+                    <div class="text-gray-600">⭐ Stars</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-blue-600">1</div>
+                    <div class="text-gray-600">🍴 Forks</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green-600">17</div>
+                    <div class="text-gray-600">👀 Watchers</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-lg font-bold text-purple-600">TypeScript</div>
+                    <div class="text-gray-600">💻 Language</div>
+                </div>
+            </div>
+            
+            <div class="mt-4 p-3 bg-gray-50 rounded">
+                <p class="text-gray-700">ToolHive is an application that allows you to install, manage and run MCP servers and connect them to AI agents</p>
+            </div>
+            
+        </div>
+        
+
+        <!-- Key Metrics -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="metric-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center">
+                    <div class="text-4xl text-blue-600">📦</div>
+                    <div class="ml-4">
+                        <div class="text-2xl font-bold text-gray-800">18</div>
+                        <div class="text-gray-600">Total Releases</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center">
+                    <div class="text-4xl text-green-600">⬇️</div>
+                    <div class="ml-4">
+                        <div class="text-2xl font-bold text-gray-800">3,685</div>
+                        <div class="text-gray-600">Total Downloads</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center">
+                    <div class="text-4xl text-purple-600">📊</div>
+                    <div class="ml-4">
+                        <div class="text-2xl font-bold text-gray-800">205</div>
+                        <div class="text-gray-600">Avg Downloads</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metric-card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center">
+                    <div class="text-4xl text-orange-600">🚧</div>
+                    <div class="ml-4">
+                        <div class="text-2xl font-bold text-gray-800">0</div>
+                        <div class="text-gray-600">Pre-releases</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Section -->
+        
+
+        <!-- Latest Release -->
+        
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">🚀 Latest Release</h2>
+            <div class="bg-blue-50 rounded-lg p-4">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-800">v0.1.2</h3>
+                        <p class="text-blue-600">Tag: v0.1.2</p>
+                        <p class="text-gray-600">Released: 7/16/2025</p>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-bold text-blue-800">416</div>
+                        <div class="text-blue-600">Downloads</div>
+                    </div>
+                </div>
+                
+                
+                <div class="mt-4">
+                    <h4 class="font-semibold text-gray-800 mb-2">📎 Assets:</h4>
+                    <div class="space-y-2">
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">RELEASES</span>
+                                <span class="text-sm text-gray-500 ml-2">(79 Bytes)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">62 downloads</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">ToolHive-0.1.2-1.x86_64.rpm</span>
+                                <span class="text-sm text-gray-500 ml-2">(110.51 MB)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">2 downloads</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">ToolHive-0.1.2-full.nupkg</span>
+                                <span class="text-sm text-gray-500 ml-2">(144.01 MB)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">1 downloads</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">ToolHive-arm64.dmg</span>
+                                <span class="text-sm text-gray-500 ml-2">(135.78 MB)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">5 downloads</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">ToolHive-darwin-arm64-0.1.2.zip</span>
+                                <span class="text-sm text-gray-500 ml-2">(134.15 MB)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">339 downloads</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">ToolHive-x64.dmg</span>
+                                <span class="text-sm text-gray-500 ml-2">(144.36 MB)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">2 downloads</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">ToolHive.Setup.exe</span>
+                                <span class="text-sm text-gray-500 ml-2">(144.86 MB)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">3 downloads</span>
+                        </div>
+                        
+                        <div class="flex justify-between items-center bg-white rounded p-3">
+                            <div>
+                                <span class="font-medium">toolhive_0.1.2_amd64.deb</span>
+                                <span class="text-sm text-gray-500 ml-2">(105.97 MB)</span>
+                            </div>
+                            <span class="text-blue-600 font-semibold">2 downloads</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <!-- Top Releases -->
+        
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">🏆 Top Releases by Downloads</h2>
+            <div class="space-y-3">
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            1
+                        </div>
+                        <div>
+                            <div class="font-semibold">Release alpha v0.0.16</div>
+                            <div class="text-sm text-gray-600">v0.0.16 • 7/11/2025</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-blue-600">650</div>
+                        <div class="text-sm text-gray-600">downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            2
+                        </div>
+                        <div>
+                            <div class="font-semibold">Release alpha v0.0.13</div>
+                            <div class="text-sm text-gray-600">v0.0.13 • 7/9/2025</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-blue-600">500</div>
+                        <div class="text-sm text-gray-600">downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            3
+                        </div>
+                        <div>
+                            <div class="font-semibold">Release alpha v0.0.14</div>
+                            <div class="text-sm text-gray-600">v0.0.14 • 7/10/2025</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-blue-600">465</div>
+                        <div class="text-sm text-gray-600">downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            4
+                        </div>
+                        <div>
+                            <div class="font-semibold">Release alpha v0.0.9</div>
+                            <div class="text-sm text-gray-600">v0.0.9 • 7/3/2025</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-blue-600">431</div>
+                        <div class="text-sm text-gray-600">downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            5
+                        </div>
+                        <div>
+                            <div class="font-semibold">v0.1.2</div>
+                            <div class="text-sm text-gray-600">v0.1.2 • 7/16/2025</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-blue-600">416</div>
+                        <div class="text-sm text-gray-600">downloads</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <!-- Top Assets -->
+        
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">📁 Top Assets by Downloads</h2>
+            <div class="space-y-3">
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            1
+                        </div>
+                        <div>
+                            <div class="font-semibold">RELEASES</div>
+                            <div class="text-sm text-gray-600">86 Bytes • Appears in 17 release(s)</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-green-600">1,390</div>
+                        <div class="text-sm text-gray-600">total downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            2
+                        </div>
+                        <div>
+                            <div class="font-semibold">ToolHive-darwin-arm64-0.0.13.zip</div>
+                            <div class="text-sm text-gray-600">129.06 MB • Appears in 1 release(s)</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-green-600">349</div>
+                        <div class="text-sm text-gray-600">total downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            3
+                        </div>
+                        <div>
+                            <div class="font-semibold">ToolHive-darwin-arm64-0.1.2.zip</div>
+                            <div class="text-sm text-gray-600">134.15 MB • Appears in 1 release(s)</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-green-600">339</div>
+                        <div class="text-sm text-gray-600">total downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            4
+                        </div>
+                        <div>
+                            <div class="font-semibold">ToolHive-darwin-arm64-0.0.16.zip</div>
+                            <div class="text-sm text-gray-600">130.7 MB • Appears in 1 release(s)</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-green-600">291</div>
+                        <div class="text-sm text-gray-600">total downloads</div>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
+                            5
+                        </div>
+                        <div>
+                            <div class="font-semibold">ToolHive-darwin-arm64-0.0.12.zip</div>
+                            <div class="text-sm text-gray-600">129.06 MB • Appears in 1 release(s)</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-lg font-bold text-green-600">280</div>
+                        <div class="text-sm text-gray-600">total downloads</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <!-- Recent Executions -->
+        
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">🔄 Recent Executions</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-4 py-2 text-left text-sm font-medium text-gray-700">Status</th>
+                            <th class="px-4 py-2 text-left text-sm font-medium text-gray-700">Date</th>
+                            <th class="px-4 py-2 text-left text-sm font-medium text-gray-700">Releases</th>
+                            <th class="px-4 py-2 text-left text-sm font-medium text-gray-700">Downloads</th>
+                            <th class="px-4 py-2 text-left text-sm font-medium text-gray-700">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        
+                        <tr>
+                            <td class="px-4 py-2">
+                                <span class="status-success font-semibold">
+                                    ✅ Success
+                                </span>
+                            </td>
+                            <td class="px-4 py-2 text-sm text-gray-600">
+                                7/17/2025
+                                <br>
+                                <span class="text-xs">8:24:54 AM</span>
+                            </td>
+                            <td class="px-4 py-2 font-medium">18</td>
+                            <td class="px-4 py-2 font-medium">3,685</td>
+                            <td class="px-4 py-2 text-sm text-gray-600">-</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm py-8">
+            <p>🔄 Dashboard auto-refreshes every 30 minutes</p>
+            <p class="mt-2">Generated by GitHub Actions • Powered by GitHub Pages</p>
+            <p class="mt-1">📊 Data updated: 7/17/2025, 8:24:53 AM</p>
+        </footer>
+    </main>
+
+    <script>
+        
+      const chartData = {
+  "dates": [
+    "2025-07-17"
+  ],
+  "downloads": [
+    3685
+  ],
+  "releases": [
+    18
+  ]
+};
+      
+      // Downloads trend chart
+      const downloadsCtx = document.getElementById('downloadsChart');
+      if (downloadsCtx && chartData.dates.length > 1) {
+        new Chart(downloadsCtx, {
+          type: 'line',
+          data: {
+            labels: chartData.dates,
+            datasets: [{
+              label: 'Total Downloads',
+              data: chartData.downloads,
+              borderColor: '#2563eb',
+              backgroundColor: 'rgba(37, 99, 235, 0.1)',
+              tension: 0.4,
+              fill: true
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              title: {
+                display: true,
+                text: 'Downloads Trend (Last 90 days)'
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      }
+
+      // Releases trend chart
+      const releasesCtx = document.getElementById('releasesChart');
+      if (releasesCtx && chartData.dates.length > 1) {
+        new Chart(releasesCtx, {
+          type: 'line',
+          data: {
+            labels: chartData.dates,
+            datasets: [{
+              label: 'Total Releases',
+              data: chartData.releases,
+              borderColor: '#059669',
+              backgroundColor: 'rgba(5, 150, 105, 0.1)',
+              tension: 0.4,
+              fill: true
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              title: {
+                display: true,
+                text: 'Releases Count Trend (Last 90 days)'
+              }
+            },
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      }
+    
+        
+        // Auto-refresh warning before page reload
+        let refreshWarning = false;
+        setTimeout(() => {
+            if (!refreshWarning) {
+                refreshWarning = true;
+                console.log('🔄 Page will refresh in 5 minutes to update metrics...');
+            }
+        }, (30 - 5) * 60 * 1000);
+    </script>
+</body>
+</html>
