@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-07-17T14:57:25.503Z",
+  "timestamp": "2025-07-17T15:26:41.830Z",
   "date": "2025-07-17",
   "repository": "stacklok/toolhive-studio",
   "repositoryInfo": {
@@ -24,7 +24,7 @@
       "publishedAt": "2025-07-16T14:57:16Z",
       "draft": false,
       "prerelease": false,
-      "downloadCount": 616,
+      "downloadCount": 630,
       "assets": [
         {
           "name": "io.github.stacklok.toolhive_studio_stable_x86_64.flatpak",
@@ -35,7 +35,7 @@
         },
         {
           "name": "RELEASES",
-          "downloadCount": 90,
+          "downloadCount": 92,
           "size": 79,
           "contentType": "application/octet-stream",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/RELEASES"
@@ -63,7 +63,7 @@
         },
         {
           "name": "ToolHive-darwin-arm64-0.1.2.zip",
-          "downloadCount": 491,
+          "downloadCount": 502,
           "size": 140664464,
           "contentType": "application/zip",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-arm64-0.1.2.zip"
@@ -105,7 +105,7 @@
         },
         {
           "name": "toolhive_0.1.2_amd64.deb",
-          "downloadCount": 3,
+          "downloadCount": 4,
           "size": 111113988,
           "contentType": "application/x-debian-package",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive_0.1.2_amd64.deb"
@@ -1561,8 +1561,8 @@
     }
   ],
   "stats": {
-    "totalDownloads": 3885,
-    "averageDownloadsPerRelease": 216,
+    "totalDownloads": 3899,
+    "averageDownloadsPerRelease": 217,
     "latestRelease": {
       "id": 232887957,
       "name": "v0.1.2",
@@ -1570,7 +1570,7 @@
       "publishedAt": "2025-07-16T14:57:16Z",
       "draft": false,
       "prerelease": false,
-      "downloadCount": 616,
+      "downloadCount": 630,
       "assets": [
         {
           "name": "io.github.stacklok.toolhive_studio_stable_x86_64.flatpak",
@@ -1581,7 +1581,7 @@
         },
         {
           "name": "RELEASES",
-          "downloadCount": 90,
+          "downloadCount": 92,
           "size": 79,
           "contentType": "application/octet-stream",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/RELEASES"
@@ -1609,7 +1609,7 @@
         },
         {
           "name": "ToolHive-darwin-arm64-0.1.2.zip",
-          "downloadCount": 491,
+          "downloadCount": 502,
           "size": 140664464,
           "contentType": "application/zip",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-arm64-0.1.2.zip"
@@ -1651,7 +1651,7 @@
         },
         {
           "name": "toolhive_0.1.2_amd64.deb",
-          "downloadCount": 3,
+          "downloadCount": 4,
           "size": 111113988,
           "contentType": "application/x-debian-package",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive_0.1.2_amd64.deb"
@@ -1749,7 +1749,7 @@
         "publishedAt": "2025-07-16T14:57:16Z",
         "draft": false,
         "prerelease": false,
-        "downloadCount": 616,
+        "downloadCount": 630,
         "assets": [
           {
             "name": "io.github.stacklok.toolhive_studio_stable_x86_64.flatpak",
@@ -1760,7 +1760,7 @@
           },
           {
             "name": "RELEASES",
-            "downloadCount": 90,
+            "downloadCount": 92,
             "size": 79,
             "contentType": "application/octet-stream",
             "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/RELEASES"
@@ -1788,7 +1788,7 @@
           },
           {
             "name": "ToolHive-darwin-arm64-0.1.2.zip",
-            "downloadCount": 491,
+            "downloadCount": 502,
             "size": 140664464,
             "contentType": "application/zip",
             "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-arm64-0.1.2.zip"
@@ -1830,7 +1830,7 @@
           },
           {
             "name": "toolhive_0.1.2_amd64.deb",
-            "downloadCount": 3,
+            "downloadCount": 4,
             "size": 111113988,
             "contentType": "application/x-debian-package",
             "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive_0.1.2_amd64.deb"
@@ -2084,14 +2084,14 @@
     "topAssets": [
       {
         "name": "RELEASES",
-        "totalDownloads": 1418,
+        "totalDownloads": 1420,
         "appearances": 17,
         "totalSize": 86,
         "contentType": "application/octet-stream"
       },
       {
         "name": "ToolHive-darwin-arm64-0.1.2.zip",
-        "totalDownloads": 491,
+        "totalDownloads": 502,
         "appearances": 1,
         "totalSize": 140664464,
         "contentType": "application/zip"
