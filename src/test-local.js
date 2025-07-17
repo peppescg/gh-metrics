@@ -1,3 +1,6 @@
+// Load environment variables from .env file
+require('dotenv').config();
+
 const GitHubMetricsCollector = require('./metrics-collector');
 const DashboardBuilder = require('./build-dashboard');
 
@@ -49,4 +52,3 @@ async function testLocal() {
 }
 
 // Run tests
-testLocal(); 

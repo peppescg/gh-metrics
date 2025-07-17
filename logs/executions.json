@@ -1,5 +1,662 @@
 [
   {
+    "timestamp": "2025-07-17T14:57:25.534Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3885,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:52:26.889Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:34.692Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:28.598Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:18.895Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:07.027Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:06.317Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:05.617Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:04.883Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:04.110Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:03.448Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:02.807Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:02.114Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:01.350Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:51:00.534Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:59.667Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:58.858Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:58.171Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:57.469Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:56.725Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:55.942Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:55.076Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:54.484Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:53.398Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:52.638Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:51.772Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:51.119Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:50.363Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:49.575Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:48.837Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:48.052Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:47.334Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:46.495Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:45.629Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:44.771Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:44.048Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:43.312Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:42.620Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:41.807Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:41.124Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:40.399Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:39.740Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:38.956Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:38.221Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:37.519Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:36.761Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:36.081Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:35.278Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:34.547Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:33.872Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:33.140Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:32.498Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:31.778Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:31.070Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:30.283Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:29.590Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:28.843Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:27.858Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:27.111Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:26.871Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:25.991Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:25.203Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:24.475Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:23.745Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:22.992Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:22.282Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:21.572Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:20.820Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:20.022Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:19.247Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:18.539Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:50:13.643Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
+    "timestamp": "2025-07-17T14:49:49.391Z",
+    "date": "2025-07-17",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 3877,
+    "error": null
+  },
+  {
     "timestamp": "2025-07-17T10:31:30.325Z",
     "date": "2025-07-17",
     "success": true,

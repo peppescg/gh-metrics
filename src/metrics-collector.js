@@ -1,3 +1,6 @@
+// Load environment variables from .env file
+require('dotenv').config();
+
 const axios = require('axios');
 const fs = require('fs-extra');
 const path = require('path');

@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-07-17T10:31:30.119Z",
+  "timestamp": "2025-07-17T14:57:25.503Z",
   "date": "2025-07-17",
   "repository": "stacklok/toolhive-studio",
   "repositoryInfo": {
     "name": "toolhive-studio",
     "fullName": "stacklok/toolhive-studio",
     "description": "ToolHive is an application that allows you to install, manage and run MCP servers and connect them to AI agents",
-    "stars": 17,
+    "stars": 18,
     "forks": 1,
-    "watchers": 17,
+    "watchers": 18,
     "language": "TypeScript",
     "createdAt": "2025-05-22T14:04:27Z",
-    "updatedAt": "2025-07-17T03:30:47Z",
+    "updatedAt": "2025-07-17T11:51:30Z",
     "defaultBranch": "main",
     "isPrivate": false
   },
@@ -24,18 +24,18 @@
       "publishedAt": "2025-07-16T14:57:16Z",
       "draft": false,
       "prerelease": false,
-      "downloadCount": 472,
+      "downloadCount": 616,
       "assets": [
         {
           "name": "io.github.stacklok.toolhive_studio_stable_x86_64.flatpak",
-          "downloadCount": 0,
+          "downloadCount": 1,
           "size": 106738800,
           "contentType": "application/octet-stream",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/io.github.stacklok.toolhive_studio_stable_x86_64.flatpak"
         },
         {
           "name": "RELEASES",
-          "downloadCount": 70,
+          "downloadCount": 90,
           "size": 79,
           "contentType": "application/octet-stream",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/RELEASES"
@@ -56,14 +56,14 @@
         },
         {
           "name": "ToolHive-arm64.dmg",
-          "downloadCount": 5,
+          "downloadCount": 18,
           "size": 142372228,
           "contentType": "application/x-apple-diskimage",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-arm64.dmg"
         },
         {
           "name": "ToolHive-darwin-arm64-0.1.2.zip",
-          "downloadCount": 387,
+          "downloadCount": 491,
           "size": 140664464,
           "contentType": "application/zip",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-arm64-0.1.2.zip"
@@ -77,7 +77,7 @@
         },
         {
           "name": "toolhive-studio-linux-x64.tar.gz",
-          "downloadCount": 0,
+          "downloadCount": 1,
           "size": 148922356,
           "contentType": "application/gzip",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive-studio-linux-x64.tar.gz"
@@ -91,21 +91,21 @@
         },
         {
           "name": "ToolHive-x64.dmg",
-          "downloadCount": 2,
+          "downloadCount": 3,
           "size": 151375344,
           "contentType": "application/x-apple-diskimage",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-x64.dmg"
         },
         {
           "name": "ToolHive.Setup.exe",
-          "downloadCount": 3,
+          "downloadCount": 6,
           "size": 151894528,
           "contentType": "application/x-msdos-program",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive.Setup.exe"
         },
         {
           "name": "toolhive_0.1.2_amd64.deb",
-          "downloadCount": 2,
+          "downloadCount": 3,
           "size": 111113988,
           "contentType": "application/x-debian-package",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive_0.1.2_amd64.deb"
@@ -1561,8 +1561,8 @@
     }
   ],
   "stats": {
-    "totalDownloads": 3741,
-    "averageDownloadsPerRelease": 208,
+    "totalDownloads": 3885,
+    "averageDownloadsPerRelease": 216,
     "latestRelease": {
       "id": 232887957,
       "name": "v0.1.2",
@@ -1570,18 +1570,18 @@
       "publishedAt": "2025-07-16T14:57:16Z",
       "draft": false,
       "prerelease": false,
-      "downloadCount": 472,
+      "downloadCount": 616,
       "assets": [
         {
           "name": "io.github.stacklok.toolhive_studio_stable_x86_64.flatpak",
-          "downloadCount": 0,
+          "downloadCount": 1,
           "size": 106738800,
           "contentType": "application/octet-stream",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/io.github.stacklok.toolhive_studio_stable_x86_64.flatpak"
         },
         {
           "name": "RELEASES",
-          "downloadCount": 70,
+          "downloadCount": 90,
           "size": 79,
           "contentType": "application/octet-stream",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/RELEASES"
@@ -1602,14 +1602,14 @@
         },
         {
           "name": "ToolHive-arm64.dmg",
-          "downloadCount": 5,
+          "downloadCount": 18,
           "size": 142372228,
           "contentType": "application/x-apple-diskimage",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-arm64.dmg"
         },
         {
           "name": "ToolHive-darwin-arm64-0.1.2.zip",
-          "downloadCount": 387,
+          "downloadCount": 491,
           "size": 140664464,
           "contentType": "application/zip",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-arm64-0.1.2.zip"
@@ -1623,7 +1623,7 @@
         },
         {
           "name": "toolhive-studio-linux-x64.tar.gz",
-          "downloadCount": 0,
+          "downloadCount": 1,
           "size": 148922356,
           "contentType": "application/gzip",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive-studio-linux-x64.tar.gz"
@@ -1637,21 +1637,21 @@
         },
         {
           "name": "ToolHive-x64.dmg",
-          "downloadCount": 2,
+          "downloadCount": 3,
           "size": 151375344,
           "contentType": "application/x-apple-diskimage",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-x64.dmg"
         },
         {
           "name": "ToolHive.Setup.exe",
-          "downloadCount": 3,
+          "downloadCount": 6,
           "size": 151894528,
           "contentType": "application/x-msdos-program",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive.Setup.exe"
         },
         {
           "name": "toolhive_0.1.2_amd64.deb",
-          "downloadCount": 2,
+          "downloadCount": 3,
           "size": 111113988,
           "contentType": "application/x-debian-package",
           "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive_0.1.2_amd64.deb"
@@ -1743,6 +1743,101 @@
         ]
       },
       {
+        "id": 232887957,
+        "name": "v0.1.2",
+        "tagName": "v0.1.2",
+        "publishedAt": "2025-07-16T14:57:16Z",
+        "draft": false,
+        "prerelease": false,
+        "downloadCount": 616,
+        "assets": [
+          {
+            "name": "io.github.stacklok.toolhive_studio_stable_x86_64.flatpak",
+            "downloadCount": 1,
+            "size": 106738800,
+            "contentType": "application/octet-stream",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/io.github.stacklok.toolhive_studio_stable_x86_64.flatpak"
+          },
+          {
+            "name": "RELEASES",
+            "downloadCount": 90,
+            "size": 79,
+            "contentType": "application/octet-stream",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/RELEASES"
+          },
+          {
+            "name": "ToolHive-0.1.2-1.x86_64.rpm",
+            "downloadCount": 2,
+            "size": 115880157,
+            "contentType": "application/x-redhat-package-manager",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-0.1.2-1.x86_64.rpm"
+          },
+          {
+            "name": "ToolHive-0.1.2-full.nupkg",
+            "downloadCount": 1,
+            "size": 151002908,
+            "contentType": "application/octet-stream",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-0.1.2-full.nupkg"
+          },
+          {
+            "name": "ToolHive-arm64.dmg",
+            "downloadCount": 18,
+            "size": 142372228,
+            "contentType": "application/x-apple-diskimage",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-arm64.dmg"
+          },
+          {
+            "name": "ToolHive-darwin-arm64-0.1.2.zip",
+            "downloadCount": 491,
+            "size": 140664464,
+            "contentType": "application/zip",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-arm64-0.1.2.zip"
+          },
+          {
+            "name": "ToolHive-darwin-x64-0.1.2.zip",
+            "downloadCount": 0,
+            "size": 149814546,
+            "contentType": "application/zip",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-x64-0.1.2.zip"
+          },
+          {
+            "name": "toolhive-studio-linux-x64.tar.gz",
+            "downloadCount": 1,
+            "size": 148922356,
+            "contentType": "application/gzip",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive-studio-linux-x64.tar.gz"
+          },
+          {
+            "name": "ToolHive-win32-x64-0.1.2.zip",
+            "downloadCount": 0,
+            "size": 157022144,
+            "contentType": "application/zip",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-win32-x64-0.1.2.zip"
+          },
+          {
+            "name": "ToolHive-x64.dmg",
+            "downloadCount": 3,
+            "size": 151375344,
+            "contentType": "application/x-apple-diskimage",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-x64.dmg"
+          },
+          {
+            "name": "ToolHive.Setup.exe",
+            "downloadCount": 6,
+            "size": 151894528,
+            "contentType": "application/x-msdos-program",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive.Setup.exe"
+          },
+          {
+            "name": "toolhive_0.1.2_amd64.deb",
+            "downloadCount": 3,
+            "size": 111113988,
+            "contentType": "application/x-debian-package",
+            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive_0.1.2_amd64.deb"
+          }
+        ]
+      },
+      {
         "id": 231078889,
         "name": "Release alpha v0.0.13",
         "tagName": "v0.0.13",
@@ -1820,101 +1915,6 @@
             "size": 107227812,
             "contentType": "application/x-debian-package",
             "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.0.13/toolhive_0.0.13_amd64.deb"
-          }
-        ]
-      },
-      {
-        "id": 232887957,
-        "name": "v0.1.2",
-        "tagName": "v0.1.2",
-        "publishedAt": "2025-07-16T14:57:16Z",
-        "draft": false,
-        "prerelease": false,
-        "downloadCount": 472,
-        "assets": [
-          {
-            "name": "io.github.stacklok.toolhive_studio_stable_x86_64.flatpak",
-            "downloadCount": 0,
-            "size": 106738800,
-            "contentType": "application/octet-stream",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/io.github.stacklok.toolhive_studio_stable_x86_64.flatpak"
-          },
-          {
-            "name": "RELEASES",
-            "downloadCount": 70,
-            "size": 79,
-            "contentType": "application/octet-stream",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/RELEASES"
-          },
-          {
-            "name": "ToolHive-0.1.2-1.x86_64.rpm",
-            "downloadCount": 2,
-            "size": 115880157,
-            "contentType": "application/x-redhat-package-manager",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-0.1.2-1.x86_64.rpm"
-          },
-          {
-            "name": "ToolHive-0.1.2-full.nupkg",
-            "downloadCount": 1,
-            "size": 151002908,
-            "contentType": "application/octet-stream",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-0.1.2-full.nupkg"
-          },
-          {
-            "name": "ToolHive-arm64.dmg",
-            "downloadCount": 5,
-            "size": 142372228,
-            "contentType": "application/x-apple-diskimage",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-arm64.dmg"
-          },
-          {
-            "name": "ToolHive-darwin-arm64-0.1.2.zip",
-            "downloadCount": 387,
-            "size": 140664464,
-            "contentType": "application/zip",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-arm64-0.1.2.zip"
-          },
-          {
-            "name": "ToolHive-darwin-x64-0.1.2.zip",
-            "downloadCount": 0,
-            "size": 149814546,
-            "contentType": "application/zip",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-darwin-x64-0.1.2.zip"
-          },
-          {
-            "name": "toolhive-studio-linux-x64.tar.gz",
-            "downloadCount": 0,
-            "size": 148922356,
-            "contentType": "application/gzip",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive-studio-linux-x64.tar.gz"
-          },
-          {
-            "name": "ToolHive-win32-x64-0.1.2.zip",
-            "downloadCount": 0,
-            "size": 157022144,
-            "contentType": "application/zip",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-win32-x64-0.1.2.zip"
-          },
-          {
-            "name": "ToolHive-x64.dmg",
-            "downloadCount": 2,
-            "size": 151375344,
-            "contentType": "application/x-apple-diskimage",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive-x64.dmg"
-          },
-          {
-            "name": "ToolHive.Setup.exe",
-            "downloadCount": 3,
-            "size": 151894528,
-            "contentType": "application/x-msdos-program",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/ToolHive.Setup.exe"
-          },
-          {
-            "name": "toolhive_0.1.2_amd64.deb",
-            "downloadCount": 2,
-            "size": 111113988,
-            "contentType": "application/x-debian-package",
-            "browserDownloadUrl": "https://github.com/stacklok/toolhive-studio/releases/download/v0.1.2/toolhive_0.1.2_amd64.deb"
           }
         ]
       },
@@ -2084,14 +2084,14 @@
     "topAssets": [
       {
         "name": "RELEASES",
-        "totalDownloads": 1398,
+        "totalDownloads": 1418,
         "appearances": 17,
         "totalSize": 86,
         "contentType": "application/octet-stream"
       },
       {
         "name": "ToolHive-darwin-arm64-0.1.2.zip",
-        "totalDownloads": 387,
+        "totalDownloads": 491,
         "appearances": 1,
         "totalSize": 140664464,
         "contentType": "application/zip"
