@@ -1,6 +1,8 @@
 name: Collect GitHub Metrics
 
 on:
+  push:
+    branches: [main]
   schedule:
     # Runs every day at 10:00 UTC
     - cron: "0 10 * * *"
@@ -70,10 +72,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository with latest data
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           ref: main
+          # Force fresh checkout to get the latest committed data
+          fetch-depth: 0
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
