@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2025-07-18T10:30:48.362Z",
+    "date": "2025-07-18",
+    "success": true,
+    "repository": "stacklok/toolhive-studio",
+    "totalReleases": 18,
+    "totalDownloads": 4329,
+    "error": null
+  },
+  {
     "timestamp": "2025-07-17T15:36:31.083Z",
     "date": "2025-07-17",
     "success": true,
