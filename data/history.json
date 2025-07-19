@@ -1,5 +1,17 @@
 [
   {
+    "date": "2025-07-19",
+    "timestamp": "2025-07-19T10:28:35.342Z",
+    "totalReleases": 18,
+    "totalDownloads": 4839,
+    "averageDownloads": 269,
+    "latestRelease": {
+      "name": "v0.1.2",
+      "tagName": "v0.1.2",
+      "downloadCount": 1570
+    }
+  },
+  {
     "date": "2025-07-18",
     "timestamp": "2025-07-18T10:30:48.333Z",
     "totalReleases": 18,
